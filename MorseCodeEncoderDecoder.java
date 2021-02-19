@@ -1,6 +1,10 @@
+/**
+*Converts a given string to morsecode and vice versa by using method overloading
+*/
+
 import java.util.*;
 
-class MorseCodeConvertor{
+class MorseCodeEncoderDecoder{
     final String[] morseCode = new String[]{
             ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
             ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-",
@@ -50,6 +54,6 @@ class MorseCodeConvertor{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println(new MorseCodeConvertor().convert(scan.nextLine()));
-        System.out.println(new MorseCodeConvertor().convert(scan.nextLine()));
+        //YOu can either pass MorseCode or String in the convert method
     }
 }
