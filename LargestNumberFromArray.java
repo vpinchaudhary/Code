@@ -4,10 +4,7 @@
  * number = 9 98 76 45 4 34 3 12 121 1
  * */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 class LargestNumberFromArray{
 
